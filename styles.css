@@ -1,0 +1,19 @@
+.container {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("https://cdn.discordapp.com/attachments/1211740646516461579/1265681598079176830/izutsumi_header.png?ex=66a26558&is=66a113d8&hm=33403f194575b790f26613ff459537965e60489543c3407effa112137baac351&") repeat-x;
+  height: 200px;
+  width: 5076px;
+  animation: slide 45s linear infinite;
+}
+
+@keyframes slide{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
